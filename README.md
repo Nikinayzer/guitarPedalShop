@@ -48,14 +48,15 @@ To install and run this project locally, follow these steps:
    ```bash
    composer install
 3. **Environment setup**:
+   Make sure to set up app name and db connection.
    ```bash
    cp .env.example .env
    php artisan key:generate
-4. **Database migration**:
+5. **Database migration**:
    ```bash
    php artisan migrate
    php artisan db:seed
-5.  **Run the application**:
+6.  **Run the application**:
     ```bash
     php artisan serve
-6. Visit http://localhost:8000 in your browser.
+7. Visit http://localhost:8000 in your browser.
